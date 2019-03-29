@@ -109,7 +109,7 @@ deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure: TODO
+    secure: SjiIH8pDiG1MLX6fublnNY7LsVvAz3Jp+ZfnL+uc72yj6ujsrMt/4Ex1Ss6P5tCAoAuwvTCd105Waabemv20NvBOtCVFy1gIvaWOKPnfxceLztjnxmXwhhTVQqMopbhDuKK6uVluyxT9tzsUZwHrpNVF1kS+YBKVBTiRxSropI9HzgYQypseK/wAMXLMrXnlv2JadH2YVoXoPUkJY2OL0ZJb9Aq9W5MTsCERZoLzm23iWQM6KZZ+nV6SUKJ/HBpm7lJYDcdxauOiOcnF5sCP8mzS8VMVcAeGX8Kf39q96j7PJ0sX4E5vmCyBvBSOzlSk0ebuu3E/0GQmHYkt/4AS7hk7c4d/oF3EyrKys2Ic20wOiUOVE+zqTHe+F/NFVueRR+iJeVTc8k84XV7UAtauxndX2b6/A3G7kV2b2wQWb3Kwn5Bym6OBgAzur7VjHK3veQdoX4w0KhQijE/WtxfA21y2T2lijnu2lj1ai4xwuzi2E12DhxM4Xdn39Iz9mO3O/kis75uYxZg4y4mD7RD3gpWi+Slvh5B373cIm651Tl5u8wNl0VB+Qf1wEfr5vZ/LXV8c6hxCMQAq1/4jPUT3YlLumFoenrkSDy02qbHmHLxSyJHeMN0pnU84WpGe+fX4iqbpqBZKsvu9IBEEaAf3kqFEclnxvXR5EoeFcIyewNc=
   file:
     - ${OJDK_IMAGE}.zip
     - ${OJDK_IMAGE}.zip.sha256
