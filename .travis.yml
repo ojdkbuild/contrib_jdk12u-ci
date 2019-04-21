@@ -33,7 +33,7 @@ before_install:
   - export OJDK_TAG=`git describe --exact-match --tags HEAD`
   - if [ -z ${OJDK_TAG} ] ; then exit 1 ; fi
   - echo ${OJDK_TAG}
-  - export OJDK_UPDATE=0
+  - export OJDK_UPDATE=`echo ${OJDK_TAG} | sed 's/\./ /g' | sed 's/+/ /' | awk '{print $3}'`
   - echo ${OJDK_UPDATE}
   - export OJDK_IMAGE=jdk-12.0.${OJDK_UPDATE}-${OJDK_MILESTONE}-linux-x64
   - export D="docker exec builder"
