@@ -1,7 +1,7 @@
 OpenJDK 12 Linux builds
 =======================
 
-[![travis](https://travis-ci.org/ojdkbuild/contrib_jdk12u-ci.svg?branch=jdk-12.0.1%2B12)](https://travis-ci.org/ojdkbuild/contrib_jdk12u-ci/builds)
+[![travis](https://travis-ci.org/ojdkbuild/contrib_jdk12u-ci.svg?branch=jdk-12.0.2%2B9)](https://travis-ci.org/ojdkbuild/contrib_jdk12u-ci/builds)
 
 OpenJDK 12 "vanilla" builds done on Travis CI - [downloads](https://github.com/ojdkbuild/contrib_jdk12u-ci/releases).
 
